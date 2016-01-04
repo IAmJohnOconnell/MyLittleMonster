@@ -15,6 +15,7 @@
 		520E10481C39F00800CE9179 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 520E10461C39F00800CE9179 /* LaunchScreen.storyboard */; };
 		520E10531C39F00800CE9179 /* MyLittleMonsterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520E10521C39F00800CE9179 /* MyLittleMonsterTests.swift */; };
 		520E105E1C39F00800CE9179 /* MyLittleMonsterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520E105D1C39F00800CE9179 /* MyLittleMonsterUITests.swift */; };
+		520E106C1C3A317B00CE9179 /* DragImg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520E106B1C3A317B00CE9179 /* DragImg.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		520E10591C39F00800CE9179 /* MyLittleMonsterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyLittleMonsterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		520E105D1C39F00800CE9179 /* MyLittleMonsterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyLittleMonsterUITests.swift; sourceTree = "<group>"; };
 		520E105F1C39F00800CE9179 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		520E106B1C3A317B00CE9179 /* DragImg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DragImg.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				520E10461C39F00800CE9179 /* LaunchScreen.storyboard */,
 				520E10491C39F00800CE9179 /* Info.plist */,
 				520E10411C39F00800CE9179 /* MyLittleMonster.xcdatamodeld */,
+				520E106B1C3A317B00CE9179 /* DragImg.swift */,
 			);
 			path = MyLittleMonster;
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 				520E10431C39F00800CE9179 /* MyLittleMonster.xcdatamodeld in Sources */,
 				520E103D1C39F00700CE9179 /* ViewController.swift in Sources */,
 				520E103B1C39F00700CE9179 /* AppDelegate.swift in Sources */,
+				520E106C1C3A317B00CE9179 /* DragImg.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -60,20 +60,13 @@
                                     </imageView>
                                 </subviews>
                             </stackView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="idle1" translatesAutoresizingMaskIntoConstraints="NO" id="Nb1-8x-c9C">
-                                <rect key="frame" x="20" y="213" width="546" height="305"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="546" id="XJi-YP-x9Q"/>
-                                    <constraint firstAttribute="height" constant="305" id="mT6-mK-fEW"/>
-                                </constraints>
-                            </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="100" translatesAutoresizingMaskIntoConstraints="NO" id="tSj-ih-4bL">
                                 <rect key="frame" x="155" y="107" width="290" height="98"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="heart" translatesAutoresizingMaskIntoConstraints="NO" id="wdA-7W-qt3">
+                                    <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="heart" translatesAutoresizingMaskIntoConstraints="NO" id="wdA-7W-qt3" customClass="DragImg" customModule="MyLittleMonster" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="95" height="98"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="food" translatesAutoresizingMaskIntoConstraints="NO" id="jPi-gG-URY">
+                                    <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="food" translatesAutoresizingMaskIntoConstraints="NO" id="jPi-gG-URY" userLabel="food Img" customClass="DragImg" customModule="MyLittleMonster" customModuleProvider="target">
                                         <rect key="frame" x="195" y="0.0" width="95" height="98"/>
                                     </imageView>
                                 </subviews>
@@ -92,6 +85,13 @@
                                     </mask>
                                 </variation>
                             </stackView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="idle1" translatesAutoresizingMaskIntoConstraints="NO" id="Nb1-8x-c9C">
+                                <rect key="frame" x="20" y="213" width="546" height="305"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="546" id="XJi-YP-x9Q"/>
+                                    <constraint firstAttribute="height" constant="305" id="mT6-mK-fEW"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -139,6 +139,8 @@
                         </variation>
                     </view>
                     <connections>
+                        <outlet property="foodImg" destination="jPi-gG-URY" id="UbV-aZ-Ag2"/>
+                        <outlet property="heartImg" destination="wdA-7W-qt3" id="rOF-2d-8bE"/>
                         <outlet property="monsterImg" destination="Nb1-8x-c9C" id="CMq-ux-tsE"/>
                     </connections>
                 </viewController>

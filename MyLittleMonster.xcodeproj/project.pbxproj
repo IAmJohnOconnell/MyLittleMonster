@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		520E103B1C39F00700CE9179 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520E103A1C39F00700CE9179 /* AppDelegate.swift */; };
+		520E103D1C39F00700CE9179 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520E103C1C39F00700CE9179 /* ViewController.swift */; };
+		520E10401C39F00700CE9179 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 520E103E1C39F00700CE9179 /* Main.storyboard */; };
+		520E10431C39F00800CE9179 /* MyLittleMonster.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 520E10411C39F00800CE9179 /* MyLittleMonster.xcdatamodeld */; };
+		520E10451C39F00800CE9179 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 520E10441C39F00800CE9179 /* Assets.xcassets */; };
+		520E10481C39F00800CE9179 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 520E10461C39F00800CE9179 /* LaunchScreen.storyboard */; };
+		520E10531C39F00800CE9179 /* MyLittleMonsterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520E10521C39F00800CE9179 /* MyLittleMonsterTests.swift */; };
+		520E105E1C39F00800CE9179 /* MyLittleMonsterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520E105D1C39F00800CE9179 /* MyLittleMonsterUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		520E104F1C39F00800CE9179 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 520E102F1C39F00700CE9179 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 520E10361C39F00700CE9179;
+			remoteInfo = MyLittleMonster;
+		};
+		520E105A1C39F00800CE9179 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 520E102F1C39F00700CE9179 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 520E10361C39F00700CE9179;
+			remoteInfo = MyLittleMonster;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		520E10371C39F00700CE9179 /* MyLittleMonster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyLittleMonster.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		520E103A1C39F00700CE9179 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		520E103C1C39F00700CE9179 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		520E103F1C39F00700CE9179 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		520E10421C39F00800CE9179 /* MyLittleMonster.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyLittleMonster.xcdatamodel; sourceTree = "<group>"; };
+		520E10441C39F00800CE9179 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		520E10471C39F00800CE9179 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		520E10491C39F00800CE9179 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		520E104E1C39F00800CE9179 /* MyLittleMonsterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyLittleMonsterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		520E10521C39F00800CE9179 /* MyLittleMonsterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyLittleMonsterTests.swift; sourceTree = "<group>"; };
+		520E10541C39F00800CE9179 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		520E10591C39F00800CE9179 /* MyLittleMonsterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyLittleMonsterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		520E105D1C39F00800CE9179 /* MyLittleMonsterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyLittleMonsterUITests.swift; sourceTree = "<group>"; };
+		520E105F1C39F00800CE9179 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		520E10341C39F00700CE9179 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		520E104B1C39F00800CE9179 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		520E10561C39F00800CE9179 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		520E102E1C39F00700CE9179 = {
+			isa = PBXGroup;
+			children = (
+				520E10391C39F00700CE9179 /* MyLittleMonster */,
+				520E10511C39F00800CE9179 /* MyLittleMonsterTests */,
+				520E105C1C39F00800CE9179 /* MyLittleMonsterUITests */,
+				520E10381C39F00700CE9179 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		520E10381C39F00700CE9179 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				520E10371C39F00700CE9179 /* MyLittleMonster.app */,
+				520E104E1C39F00800CE9179 /* MyLittleMonsterTests.xctest */,
+				520E10591C39F00800CE9179 /* MyLittleMonsterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		520E10391C39F00700CE9179 /* MyLittleMonster */ = {
+			isa = PBXGroup;
+			children = (
+				520E103A1C39F00700CE9179 /* AppDelegate.swift */,
+				520E103C1C39F00700CE9179 /* ViewController.swift */,
+				520E103E1C39F00700CE9179 /* Main.storyboard */,
+				520E10441C39F00800CE9179 /* Assets.xcassets */,
+				520E10461C39F00800CE9179 /* LaunchScreen.storyboard */,
+				520E10491C39F00800CE9179 /* Info.plist */,
+				520E10411C39F00800CE9179 /* MyLittleMonster.xcdatamodeld */,
+			);
+			path = MyLittleMonster;
+			sourceTree = "<group>";
+		};
+		520E10511C39F00800CE9179 /* MyLittleMonsterTests */ = {
+			isa = PBXGroup;
+			children = (
+				520E10521C39F00800CE9179 /* MyLittleMonsterTests.swift */,
+				520E10541C39F00800CE9179 /* Info.plist */,
+			);
+			path = MyLittleMonsterTests;
+			sourceTree = "<group>";
+		};
+		520E105C1C39F00800CE9179 /* MyLittleMonsterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				520E105D1C39F00800CE9179 /* MyLittleMonsterUITests.swift */,
+				520E105F1C39F00800CE9179 /* Info.plist */,
+			);
+			path = MyLittleMonsterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		520E10361C39F00700CE9179 /* MyLittleMonster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 520E10621C39F00800CE9179 /* Build configuration list for PBXNativeTarget "MyLittleMonster" */;
+			buildPhases = (
+				520E10331C39F00700CE9179 /* Sources */,
+				520E10341C39F00700CE9179 /* Frameworks */,
+				520E10351C39F00700CE9179 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyLittleMonster;
+			productName = MyLittleMonster;
+			productReference = 520E10371C39F00700CE9179 /* MyLittleMonster.app */;
+			productType = "com.apple.product-type.application";
+		};
+		520E104D1C39F00800CE9179 /* MyLittleMonsterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 520E10651C39F00800CE9179 /* Build configuration list for PBXNativeTarget "MyLittleMonsterTests" */;
+			buildPhases = (
+				520E104A1C39F00800CE9179 /* Sources */,
+				520E104B1C39F00800CE9179 /* Frameworks */,
+				520E104C1C39F00800CE9179 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				520E10501C39F00800CE9179 /* PBXTargetDependency */,
+			);
+			name = MyLittleMonsterTests;
+			productName = MyLittleMonsterTests;
+			productReference = 520E104E1C39F00800CE9179 /* MyLittleMonsterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		520E10581C39F00800CE9179 /* MyLittleMonsterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 520E10681C39F00800CE9179 /* Build configuration list for PBXNativeTarget "MyLittleMonsterUITests" */;
+			buildPhases = (
+				520E10551C39F00800CE9179 /* Sources */,
+				520E10561C39F00800CE9179 /* Frameworks */,
+				520E10571C39F00800CE9179 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				520E105B1C39F00800CE9179 /* PBXTargetDependency */,
+			);
+			name = MyLittleMonsterUITests;
+			productName = MyLittleMonsterUITests;
+			productReference = 520E10591C39F00800CE9179 /* MyLittleMonsterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		520E102F1C39F00700CE9179 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = JTOSoftworks;
+				TargetAttributes = {
+					520E10361C39F00700CE9179 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 76Q4H2EBB3;
+					};
+					520E104D1C39F00800CE9179 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 76Q4H2EBB3;
+						TestTargetID = 520E10361C39F00700CE9179;
+					};
+					520E10581C39F00800CE9179 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 76Q4H2EBB3;
+						TestTargetID = 520E10361C39F00700CE9179;
+					};
+				};
+			};
+			buildConfigurationList = 520E10321C39F00700CE9179 /* Build configuration list for PBXProject "MyLittleMonster" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 520E102E1C39F00700CE9179;
+			productRefGroup = 520E10381C39F00700CE9179 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				520E10361C39F00700CE9179 /* MyLittleMonster */,
+				520E104D1C39F00800CE9179 /* MyLittleMonsterTests */,
+				520E10581C39F00800CE9179 /* MyLittleMonsterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		520E10351C39F00700CE9179 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				520E10481C39F00800CE9179 /* LaunchScreen.storyboard in Resources */,
+				520E10451C39F00800CE9179 /* Assets.xcassets in Resources */,
+				520E10401C39F00700CE9179 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		520E104C1C39F00800CE9179 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		520E10571C39F00800CE9179 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		520E10331C39F00700CE9179 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				520E10431C39F00800CE9179 /* MyLittleMonster.xcdatamodeld in Sources */,
+				520E103D1C39F00700CE9179 /* ViewController.swift in Sources */,
+				520E103B1C39F00700CE9179 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		520E104A1C39F00800CE9179 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				520E10531C39F00800CE9179 /* MyLittleMonsterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		520E10551C39F00800CE9179 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				520E105E1C39F00800CE9179 /* MyLittleMonsterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		520E10501C39F00800CE9179 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 520E10361C39F00700CE9179 /* MyLittleMonster */;
+			targetProxy = 520E104F1C39F00800CE9179 /* PBXContainerItemProxy */;
+		};
+		520E105B1C39F00800CE9179 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 520E10361C39F00700CE9179 /* MyLittleMonster */;
+			targetProxy = 520E105A1C39F00800CE9179 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		520E103E1C39F00700CE9179 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				520E103F1C39F00700CE9179 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		520E10461C39F00800CE9179 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				520E10471C39F00800CE9179 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		520E10601C39F00800CE9179 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		520E10611C39F00800CE9179 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		520E10631C39F00800CE9179 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyLittleMonster/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = eduJTOSoftworks.MyLittleMonster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		520E10641C39F00800CE9179 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyLittleMonster/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = eduJTOSoftworks.MyLittleMonster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		520E10661C39F00800CE9179 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MyLittleMonsterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = eduJTOSoftworks.MyLittleMonsterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyLittleMonster.app/MyLittleMonster";
+			};
+			name = Debug;
+		};
+		520E10671C39F00800CE9179 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MyLittleMonsterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = eduJTOSoftworks.MyLittleMonsterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyLittleMonster.app/MyLittleMonster";
+			};
+			name = Release;
+		};
+		520E10691C39F00800CE9179 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MyLittleMonsterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = eduJTOSoftworks.MyLittleMonsterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MyLittleMonster;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		520E106A1C39F00800CE9179 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MyLittleMonsterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = eduJTOSoftworks.MyLittleMonsterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MyLittleMonster;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		520E10321C39F00700CE9179 /* Build configuration list for PBXProject "MyLittleMonster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				520E10601C39F00800CE9179 /* Debug */,
+				520E10611C39F00800CE9179 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		520E10621C39F00800CE9179 /* Build configuration list for PBXNativeTarget "MyLittleMonster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				520E10631C39F00800CE9179 /* Debug */,
+				520E10641C39F00800CE9179 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		520E10651C39F00800CE9179 /* Build configuration list for PBXNativeTarget "MyLittleMonsterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				520E10661C39F00800CE9179 /* Debug */,
+				520E10671C39F00800CE9179 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		520E10681C39F00800CE9179 /* Build configuration list for PBXNativeTarget "MyLittleMonsterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				520E10691C39F00800CE9179 /* Debug */,
+				520E106A1C39F00800CE9179 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		520E10411C39F00800CE9179 /* MyLittleMonster.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				520E10421C39F00800CE9179 /* MyLittleMonster.xcdatamodel */,
+			);
+			currentVersion = 520E10421C39F00800CE9179 /* MyLittleMonster.xcdatamodel */;
+			path = MyLittleMonster.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 520E102F1C39F00700CE9179 /* Project object */;
+}

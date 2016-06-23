@@ -18,7 +18,7 @@ img (assets) folder contains all images.
 
 ### Dependencies
 
-This project uses Bootstrap 4 (alpha) for responsiveness.
+XCode (mac)
 
 **[Back to top](#table-of-contents)**
 
